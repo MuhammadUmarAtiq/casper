@@ -8,6 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/keen-slider@5.0.2/keen-slider.min.css"
+  />
 </head>
 <body>
     <div class="header">
@@ -24,27 +32,383 @@
 
 <navbar>
     <div class="navbar">
-        <div class="left-navbar left-right-nav" >
+        <i class="fa-solid fa-bars hamburger" id="hambur"></i>
+        <div class="left-navbar left-right-nav" id="left-navbar">
             <img src="	https://casper.com/on/demandware.static/Sites-casper_us-Site/-/default/dw23a666b9/svg-icons/logo.svg" alt="" srcset="">
         </div>
-        <div class="middle-navbar">
+        <div class="middle-navbar" id="middle-nav">
             <ul>
-                <li><a class="mattressHover" href="#">Mattresses</a></li>
-                <li> <a href="#">Bundle & Save</a></li>
-                <li><a href="#">Pillow</a></li>
-                <li><a href="#">Furniture</a></li>
-                <li><a href="#">Bedding</a></li>
-                <li><a href="#">Accesoriess</a></li>
-                <li class="sale"><a href="#">sale</a></li>
+                
+                <li class="mattressHover"><a  href="#">Mattresses</a>
+                
+                
+                    <div class="navbar-menue">
+                        <div class="nav-mattress">
+                            <h1 class="matt-h1">Mattresses</h1>
+                            <div class="nav-mattress-left">
+                                <div class="nav-matt-left-1">
+                                    <button class="left1-btn">VALUE</button>
+                                <p class="mattress-para">Signature sleep technology at our best <br> price.</p>
+                                <ul>
+                                    <li><a href="#">The Casper</a></li>
+                                    <li><a href="#">Original</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-matt-left-2">
+                                    <button class="left1-btn">PERFORMANCE</button>
+                                <p class="mattress-para">Superior ergonomic support for deeper <br> sleep.</p>
+                                <ul>
+                                    <li><a href="#">Original Hybrid</a></li>
+                                    <li><a href="#">Nova Hybrid</a></li>
+                                    <li><a href="#">Wave Hybrid</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-matt-left-3">
+                                    <button class="left1-btn">Cooling</button>
+                                <p class="mattress-para">Snow Technology for 5º cooler sleep all <br> night.</p>
+                                <ul>
+                                    <li><a href="#">Snow</a></li>
+                                    <li><a href="#">Wave Hybrid Snow</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-mattress-right">
+                                    <h2 class="nav-matt-right-h3">Find your <br>Perfect Match</h2>
+                                    <button class="nav-matt-right-btn">Take the Mattress Quiz</button>
+                                </div>
+                                
+                            </div>
+                            <div class="mattress-btn">
+                                <button class="matt-btn m-btn1">See All Mattresses</button>
+                                <button class="matt-btn m-btn2">Compare Mattresses</button>
+                            </div>
+                    
+                    
+                    
+                            
+                            <div class="nav-mettress-bottom">
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/truck-logo.jpg" alt="" srcset="">
+                                    
+                                        Free, no-contact delivery*
+                                        
+                                </div>
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/moon-logo.png" alt="" srcset="">
+                    100-night risk free trial*
+                                </div>
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/calendar-logo.jpg" alt="" srcset="">
+                                    10-year limited warranty
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </li>
+                <li class="bundleHover"> <a href="#" >Bundle & Save</a>
+                    <div class="navbar-menue">
+                        <div class="nav-mattress">
+                            <div class="nav-mattress-left">
+                                <div class="nav-matt-left-1">
+                                    <h3>Bundle & Save</h3>
+                                <p class="mattress-para">Signature sleep technology at our best <br> price.</p>
+                                <ul>
+                                    <li><a href="#">The Casper</a></li>
+                                    <li><a href="#">Original</a></li>
+                                    <li><a href="#">The Casper</a></li>
+                                    <li><a href="#">Original</a></li>
+                                </ul>
+                                </div>
+                              
+                               
+                                <div class="nav-mattress-right">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="mattress-btn">
+                                <button class="matt-btn m-btn1">See All Mattresses</button>
+                                <button class="matt-btn m-btn2">Compare Mattresses</button>
+                            </div>
+                    
+                    
+                    
+                            
+                            <div class="nav-mettress-bottom">
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/truck-logo.jpg" alt="" srcset="">
+                                    
+                                        Free, no-contact delivery*
+                                        
+                                </div>
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/moon-logo.png" alt="" srcset="">
+                    100-night risk free trial*
+                                </div>
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/calendar-logo.jpg" alt="" srcset="">
+                                    10-year limited warranty
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="pillowHover"><a href="#" >Pillow</a>
+                    <div class="navbar-menue">
+                        <div class="nav-mattress">
+                            <h1 class="matt-h1">Mattresses</h1>
+                            <div class="nav-mattress-left">
+                                <div class="nav-matt-left-1">
+                                    <button class="left1-btn">HYBRID</button>
+                                <p class="mattress-para">Signature sleep technology at our best <br> price.</p>
+                                <ul>
+                                    <li><a href="#">The Casper</a></li>
+                                    <li><a href="#">Original</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-matt-left-2">
+                                    <button class="left1-btn">FIBER</button>
+                                <p class="mattress-para">Superior ergonomic support for deeper <br> sleep.</p>
+                                <ul>
+                                    <li><a href="#">Original Hybrid</a></li>
+                                    <li><a href="#">Nova Hybrid</a></li>
+                                    <li><a href="#">Wave Hybrid</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-matt-left-3">
+                                    <button class="left1-btn">FOAM</button>
+                                <p class="mattress-para">Snow Technology for 5º cooler sleep all <br> night.</p>
+                                <ul>
+                                    <li><a href="#">Snow</a></li>
+                                    <li><a href="#">Wave Hybrid Snow</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-mattress-right">
+                                        <img class="pillow-right-image" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/v16558e3c157ff1dfa95318c27f2ef73aa6a86355/Navigation/Hybrid-Snow-Pillow-Top-Nav-NEW.jpg?version=1,689,071,041,148" alt="" srcset="">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="mattress-btn">
+                                <button class="matt-btn m-btn1">See All Pillow</button>
+                                
+                            </div>
+                    
+                                 <div class="nav-mettress-bottom">
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/truck-logo.jpg" alt="" srcset="">
+                                    
+                                        Free, no-contact delivery*
+                                        
+                                </div>
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/moon-logo.png" alt="" srcset="">
+                    100-night risk free trial*
+                                </div>
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/calendar-logo.jpg" alt="" srcset="">
+                                    10-year limited warranty
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="furnitureHover"><a href="#" >Furniture</a>
+                <div class="navbar-menue">
+                        <div class="nav-mattress">
+                            <h1 class="matt-h1">Mattresses</h1>
+                            <div class="nav-mattress-left">
+                                <div class="nav-matt-left-1">
+                                    <button class="left1-btn">VALUE</button>
+                                <p class="mattress-para">Signature sleep technology at our best <br> price.</p>
+                                <ul>
+                                    <li><a href="#">The Casper</a></li>
+                                    <li><a href="#">Original</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-matt-left-2">
+                                    <button class="left1-btn">PERFORMANCE</button>
+                                <p class="mattress-para">Superior ergonomic support for deeper <br> sleep.</p>
+                                <ul>
+                                    <li><a href="#">Original Hybrid</a></li>
+                                    <li><a href="#">Nova Hybrid</a></li>
+                                    <li><a href="#">Wave Hybrid</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-matt-left-3">
+                                    <button class="left1-btn">Cooling</button>
+                                <p class="mattress-para">Snow Technology for 5º cooler sleep all <br> night.</p>
+                                <ul>
+                                    <li><a href="#">Snow</a></li>
+                                    <li><a href="#">Wave Hybrid Snow</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-mattress-right">
+                                    <img class=" pillow-right-image" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/vc1f98d7947022c1765f5bf29fd372ec6e9ef9f2d/Navigation/furniture.jpg?version=1,689,071,044,000" alt="" srcset="">
+                                </div>
+                                
+                            </div>
+                            <div class="mattress-btn">
+                                <button class="matt-btn m-btn1">See All Mattresses</button>
+                                <button class="matt-btn m-btn2">Compare Mattresses</button>
+                            </div>
+                    
+                    
+                    
+                            
+                            <div class="nav-mettress-bottom">
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/truck-logo.jpg" alt="" srcset="">
+                                    
+                                        Free, no-contact delivery*
+                                        
+                                </div>
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/moon-logo.png" alt="" srcset="">
+                    100-night risk free trial*
+                                </div>
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/calendar-logo.jpg" alt="" srcset="">
+                                    10-year limited warranty
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="beddingHover"><a href="#">Bedding</a>
+                <div class="navbar-menue">
+                        <div class="nav-mattress">
+                            <h1 class="matt-h1">Mattresses</h1>
+                            <div class="nav-mattress-left">
+                                <div class="nav-matt-left-1">
+                                    <button class="left1-btn">HYBRID</button>
+                                <p class="mattress-para">Signature sleep technology at our best <br> price.</p>
+                                <ul>
+                                    <li><a href="#">The Casper</a></li>
+                                    <li><a href="#">Original</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-matt-left-2">
+                                    <button class="left1-btn">FIBER</button>
+                                <p class="mattress-para">Superior ergonomic support for deeper <br> sleep.</p>
+                                <ul>
+                                    <li><a href="#">Original Hybrid</a></li>
+                                    <li><a href="#">Nova Hybrid</a></li>
+                                    <li><a href="#">Wave Hybrid</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-matt-left-3">
+                                    <button class="left1-btn">FOAM</button>
+                                <p class="mattress-para">Snow Technology for 5º cooler sleep all <br> night.</p>
+                                <ul>
+                                    <li><a href="#">Snow</a></li>
+                                    <li><a href="#">Wave Hybrid Snow</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-mattress-right">
+                                        <img class="pillow-right-image" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/ve925e99ad7a964d3b19e2a6f082e44380ceb310a/Navigation/bedding.jpg?version=1,689,071,044,000" alt="" srcset="">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="mattress-btn">
+                                <button class="matt-btn m-btn1">See All Pillow</button>
+                                
+                            </div>
+                    
+                                 <div class="nav-mettress-bottom">
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/truck-logo.jpg" alt="" srcset="">
+                                    
+                                        Free, no-contact delivery*
+                                        
+                                </div>
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/moon-logo.png" alt="" srcset="">
+                    100-night risk free trial*
+                                </div>
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/calendar-logo.jpg" alt="" srcset="">
+                                    10-year limited warranty
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="accesoriessHover"><a href="#" >Accesoriess</a>
+                  <div class="navbar-menue">
+                        <div class="nav-mattress">
+                            <h1 class="matt-h1">Mattresses</h1>
+                            <div class="nav-mattress-left">
+                                <div class="nav-matt-left-1">
+                                    <button class="left1-btn">HYBRID</button>
+                                <p class="mattress-para">Signature sleep technology at our best <br> price.</p>
+                                <ul>
+                                    <li><a href="#">The Casper</a></li>
+                                    <li><a href="#">Original</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-matt-left-2">
+                                    <button class="left1-btn">FIBER</button>
+                                <p class="mattress-para">Superior ergonomic support for deeper <br> sleep.</p>
+                                <ul>
+                                    <li><a href="#">Original Hybrid</a></li>
+                                    <li><a href="#">Nova Hybrid</a></li>
+                                    <li><a href="#">Wave Hybrid</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-matt-left-3">
+                                    <button class="left1-btn">FOAM</button>
+                                <p class="mattress-para">Snow Technology for 5º cooler sleep all <br> night.</p>
+                                <ul>
+                                    <li><a href="#">Snow</a></li>
+                                    <li><a href="#">Wave Hybrid Snow</a></li>
+                                </ul>
+                                </div>
+                                <div class="nav-mattress-right">
+                                        <img class="pillow-right-image"  src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/vc1f98d7947022c1765f5bf29fd372ec6e9ef9f2d/Navigation/accessories.jpg?version=1,689,071,041,000" alt="" srcset="">
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="mattress-btn">
+                                <button class="matt-btn m-btn1">See All Pillow</button>
+                                
+                            </div>
+                    
+                                 <div class="nav-mettress-bottom">
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/truck-logo.jpg" alt="" srcset="">
+                                    
+                                        Free, no-contact delivery*
+                                        
+                                </div>
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/moon-logo.png" alt="" srcset="">
+                    100-night risk free trial*
+                                </div>
+                                <div class="icon-div">
+                                    <img class="mettress-bottom-logo" src="./img/calendar-logo.jpg" alt="" srcset="">
+                                    10-year limited warranty
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#" class="sale">sale</a></li>
             </ul>
         </div>
-        <div class="right-navbar left-right-nav">
+        
+        <div class="right-navbar left-right-nav" id="right-navbar">
             <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNicgaGVpZ2h0PScyMScgdmlld0JveD0nMCAwIDI2IDIxJyBmaWxsPSdub25lJz48cGF0aCBmaWxsLXJ1bGU9J2V2ZW5vZGQnIGNsaXAtcnVsZT0nZXZlbm9kZCcgZD0nTTcuMjE4MTEgMTguNTE1MUM3LjIxODExIDE5Ljg2NyA4LjMxNDA4IDIwLjk2MyA5LjY2NjAzIDIwLjk2M0MxMS4wMTggMjAuOTYzIDEyLjExMzkgMTkuODY3IDEyLjExMzkgMTguNTE1MUMxMi4xMTM5IDE3LjE2MzEgMTEuMDE4IDE2LjA2NzEgOS42NjYwMyAxNi4wNjcxQzguMzE0MDggMTYuMDY3MSA3LjIxODExIDE3LjE2MzEgNy4yMTgxMSAxOC41MTUxWk04LjY4NzM1IDE4LjUxNTZDOC42ODczNSAxNy45NzQ4IDkuMTI1NzQgMTcuNTM2NSA5LjY2NjUxIDE3LjUzNjVDMTAuMjA3MyAxNy41MzY1IDEwLjY0NTcgMTcuOTc0OCAxMC42NDU3IDE4LjUxNTZDMTAuNjQ1NyAxOS4wNTY0IDEwLjIwNzMgMTkuNDk0OCA5LjY2NjUxIDE5LjQ5NDhDOS4xMjU3NCAxOS40OTQ4IDguNjg3MzUgMTkuMDU2NCA4LjY4NzM1IDE4LjUxNTZaJyBmaWxsPScjMUUzMDZFJy8+PHBhdGggZmlsbC1ydWxlPSdldmVub2RkJyBjbGlwLXJ1bGU9J2V2ZW5vZGQnIGQ9J00xOC40NzkxIDE4LjUxNTFDMTguNDc5MSAxOS44NjcgMTkuNTc1MSAyMC45NjMgMjAuOTI3IDIwLjk2M0MyMi4yNzkgMjAuOTYzIDIzLjM3NDkgMTkuODY3IDIzLjM3NDkgMTguNTE1MUMyMy4zNzQ5IDE3LjE2MzEgMjIuMjc5IDE2LjA2NzEgMjAuOTI3IDE2LjA2NzFDMTkuNTc1MSAxNi4wNjcxIDE4LjQ3OTEgMTcuMTYzMSAxOC40NzkxIDE4LjUxNTFaTTE5Ljk0ODMgMTguNTE1NkMxOS45NDgzIDE3Ljk3NDggMjAuMzg2NyAxNy41MzY1IDIwLjkyNzUgMTcuNTM2NUMyMS40NjgzIDE3LjUzNjUgMjEuOTA2NyAxNy45NzQ4IDIxLjkwNjcgMTguNTE1NkMyMS45MDY3IDE5LjA1NjQgMjEuNDY4MyAxOS40OTQ4IDIwLjkyNzUgMTkuNDk0OEMyMC4zODY3IDE5LjQ5NDggMTkuOTQ4MyAxOS4wNTY0IDE5Ljk0ODMgMTguNTE1NlonIGZpbGw9JyMxRTMwNkUnLz48cGF0aCBkPSdNMjIuMzA3NyAxNS4wODgzSDguMjg2MDVDNy45NDg4NSAxNS4wODU3IDcuNjU1NTUgMTQuODU2NyA3LjU3MTI2IDE0LjUzMDJMNC42MzM3NiAyLjM1OTEzSDAuODU0MTcyQzAuNDQ4NTg4IDIuMzU5MTMgMC4xMTk3OTcgMi4wMzAzNCAwLjExOTc5NyAxLjYyNDc2QzAuMTE5Nzk3IDEuMjE5MTcgMC40NDg1ODggMC44OTAzODMgMC44NTQxNzIgMC44OTAzODNINS4yMjEyNkM1LjU1OTY1IDAuODg5NTE3IDUuODU0ODMgMS4xMiA1LjkzNjA1IDEuNDQ4NTFMOC44NzM1NSAxMy42MTk2SDIxLjcxMDRMMjMuNDYzMSA0LjY0MDU5SDkuMDAwODRDOC41OTUyNSA0LjY0MDU5IDguMjY2NDYgNC4zMTE4IDguMjY2NDYgMy45MDYyMkM4LjI2NjQ2IDMuNTAwNjMgOC41OTUyNSAzLjE3MTg0IDkuMDAwODQgMy4xNzE4NEgyNC4zNTQyQzI0LjU3MzIgMy4xNzIxMiAyNC43ODA5IDMuMjY4ODMgMjQuOTIyMSAzLjQzNjIyQzI1LjA1ODggMy42MDY4MyAyNS4xMTU4IDMuODI3ODQgMjUuMDc4OCA0LjA0MzNMMjMuMDMyMyAxNC40OTFDMjIuOTY2MiAxNC44Mzg3IDIyLjY2MTYgMTUuMDg5OCAyMi4zMDc3IDE1LjA4ODNaJyBmaWxsPScjMUUzMDZFJy8+PC9zdmc+" alt="" srcset="">
         </div>
+        <i class="fa-solid fa-xmark cross-mark" id="cross"></i>
     </div>
+
+
+    
 </navbar>
 
-<div class="navbar-menue">
+<!-- <div class="navbar-menue">
     <div class="nav-mattress">
         <h1 class="matt-h1">Mattresses</h1>
         <div class="nav-mattress-left">
@@ -115,7 +479,7 @@
     <div class="nav-furniture"></div>
     <div class="nav-bedding"></div>
     <div class="nav-accesories"></div>
-</div>
+</div> -->
 
 
 
@@ -142,28 +506,28 @@
 </main> 
 
 
-<div class="component1">
-        <div class="parent">
+   <div class="component1">
+        <div class="parent product1-parent">
             <div class="com1-product1 com1-hover">
                 <p class="component1-para">
                     Shop Mattresses</p>
                 </div>
 
 </div>
-<div class="parent">
+<div class="parent product2-parent">
     <div class="com1-product2 com1-hover">
         <p class="component1-para">
             Shop Pillow</p>
     </div>
 </div>
 <div class="three_four">
-        <div class="parent">
+        <div class="parent product3-parent">
         <div class="com1-product3 com1-hover">
             <p class="component1-para">
                 Shop Furniture</p>
         </div>
     </div>
-    <div class="parent">
+    <div class="parent product4-parent">
         <div class="com1-product4 com1-hover">
             <p class="component1-para">
             Compare Mattresses</p>
@@ -171,7 +535,8 @@
     </div>
     </div>
 
-</div> 
+</div>  
+
 
 
 <div class="snow-mattress">
@@ -192,14 +557,19 @@
     </div>
         
          </div>
-<div class="snow-m-right">
-        <iframe src="https://fast.wistia.net/embed/iframe/xc3yuv7548?seo=false&amp;videoFoam=true" title="Snow_Skinnier Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen="" width="691" height="389" style="width: 691px; height: 389px;" __idm_id__="1703938"></iframe>
+ <div class="snow-m-right">
+    
+    <div class="snow-m-right-pic">
+    <iframe src="https://fast.wistia.net/embed/iframe/xc3yuv7548?seo=false&amp;videoFoam=true" title="Snow_Skinnier Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen="" ></iframe></div>
     </div> 
-</div>
+</div> 
+  
 
 
-<div class="wave-hybrid">
+
+  <div class="wave-hybrid">
     <div class="wave-hybrid-right">
+        <div class="wave-hybrid-right-1">
         <h1 class="wave-h1">Snow Mattress</h1>
         
         <p class="wave-p">Enhanced comfort and support, now <br> engineered with our coolest sleep technology.</p>
@@ -214,12 +584,17 @@
         <div class="wave-btn-div">
         <button class="wave-btn"> Shop Snow Mattress</button>
     </div>
-        
+</div>
          </div>
  <div class="wave-hybrid-left">
-    <iframe src="https://fast.wistia.net/embed/iframe/fqkrvwu0lt?seo=false&amp;videoFoam=true" title="Wave_Skinnier Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen="" width="691" height="389" __idm_id__="2457602" style="width: 691px; height: 389px;"></iframe>
+    <div class="snow-m-right-pic">
+    <iframe src="https://fast.wistia.net/embed/iframe/fqkrvwu0lt?seo=false&amp;videoFoam=true" title="Wave_Skinnier Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen=""></iframe>
+    </div>
     </div> 
-</div>
+</div> 
+
+
+
 
 <div class="quiz-section">
     <div class="quiz-background">
@@ -228,6 +603,1275 @@
     </div>
 </div>
 
+
+
+
+
+
+ <div class="card-section-main">
+<div class="card-section">
+    <div class="card-section-top">
+    <h2 class="card-heading-top">Meet our award winning mattresses</h2>
+    <p class="card-top-para">Foam, hybrid, or cooling, we've got the right mattress that's just right for you.</p>
+</div>
+
+
+
+<div class="card-container">
+
+    
+
+<div class="card1">
+    <div class="card1-top-div">
+    <button class="card-top-btn">COOLING</button>
+    <p class="card1-top-para">Our coolest sleep technology with enhanced comfort and support.</p>
+</div>
+    <div class="card1-content">
+        <div class="card1-img"></div>
+        <div class="card1-inner-content">
+        <div class="card1-rating">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            4.2(106)
+        </div>
+        <h3 class="card1-inner-heading">Wave Hybrid Snow</h3>
+        <h4 class="price">Queen <span class="span-price">$ 2,716</span> <span class="strike-price">$3,395</span></h4>
+        <p class="card1-inner-para">Firmness:Medium</p>
+        <p class="card1-inner-para">Max support meets our most advance cooling</p>
+        <div class="inner-card-div">
+            <p class="inner-div-para">Ergonomic Support</p>
+            <div class="rating">
+            <div class="rating-line first"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line last"> </div>
+        </div>
+        <p class="inner-div-para">Cooling Technology</p>
+        <div class="rating">
+        <div class="rating-line two  first"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two last"> </div>
+    </div>
+        </div></div>
+        <div class="card1-btn">
+            <button class="btn1">Explore Wave Hybrid Snow</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="card1 card2"  >
+    <div class="card1-top-div">
+    <button class="card-top-btn" style="background-color: #406AB1;">PERFORMANCE</button>
+    <p class="card1-top-para">Our coolest sleep technology with enhanced comfort and support.</p>
+</div>
+    <div class="card1-content" style="background-color: #E4ECF3;">
+        <div class="card1-img" style="background-image: url(./img/card2.webp);"></div>
+        <div class="card1-inner-content" >
+        <div class="card1-rating">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            4.2(106)
+        </div>
+        <h3 class="card1-inner-heading">Original Hybrid </h3>
+        <h4 class="price">Queen <span class="span-price">$ 1,196</span> <span class="strike-price">$1,495</span></h4>
+        <p class="card1-inner-para">Firmness:Medium</p>
+        <p class="card1-inner-para">Our top-related mattress with enhance airflow.</p>
+        <div class="inner-card-div">
+            <p class="inner-div-para">Ergonomic Support</p>
+            <div class="rating">
+            <div class="rating-line first"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line last"> </div>
+        </div>
+        <p class="inner-div-para">Cooling Technology</p>
+        <div class="rating">
+        <div class="rating-line two  first"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two last"> </div>
+    </div>
+        </div></div>
+        <div class="card1-btn">
+            <button class="btn1">Explore Wave Hybrid Snow</button>
+        </div>
+    </div>
+
+</div>
+
+<div class="card1 card3">
+    <div class="card1-top-div">
+    <button class="card-top-btn" style="background-color: #394173;">VALUE</button>
+    <p class="card1-top-para">Our coolest sleep technology with enhanced comfort and support.   </p>
+</div>
+    <div class="card1-content" style="background-color: #EBF2FD;">
+        <div class="card1-img" style="background-image: url(./img/card3.webp);"></div>
+        <div class="card1-inner-content">
+        <div class="card1-rating">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            4.2(106)
+        </div>
+        <h3 class="card1-inner-heading">The Casper</h3>
+        <h4 class="price">Queen <span class="span-price">$ 2,716</span> <span class="strike-price">$3,395</span></h4>
+        <p class="card1-inner-para">Firmness:Medium</p>
+        <p class="card1-inner-para">Max support meets our most advance cooling</p>
+        <div class="inner-card-div">
+            <p class="inner-div-para">Ergonomic Support</p>
+            <div class="rating">
+            <div class="rating-line first"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line last"> </div>
+        </div>
+        <p class="inner-div-para">Cooling Technology</p>
+        <div class="rating">
+        <div class="rating-line two  first"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two last"> </div>
+    </div>
+        </div></div>
+        <div class="card1-btn">
+            <button class="btn1">Explore Wave Hybrid Snow</button>
+        </div>
+    </div>
+
+</div> 
+
+</div>
+
+
+
+
+
+<div class="card1-btn-end">
+    <button class="btn1">Shop all mattress</button>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+   <div class="testing-section">
+    <div class="testing-parent">
+        <div class="testing-right">
+            <div class="test-section-video">
+            <iframe src="https://fast.wistia.net/embed/iframe/xc3yuv7548?seo=false&amp;videoFoam=true" title="Snow_Skinnier Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen=""></iframe></div>
+        </div>
+        <div class="testing-left">
+            <h2 class="testing-heading">5,000+ Hours of testing.
+              <br>  That's a lot of naps!</h1>
+              <p class="testing-para">From disrupting the mattress industry to innovating new technology that helps you rest uninterrupted, everything we do at Casper is for the love of sleep.</p>
+              <div>
+              <button class="btn1 test-btn">Explore Casper Labs</button>
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+
+<div class="custom-slider owl-carousel owl-theme">
+    <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                    "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                    "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back" style="background-image: url(https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw05b6f373/Mattresses/reviews-nova-desktop.jpg);">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                    "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back" style="background-image: url(https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw21c74a6f/Reviews/5.jpg);">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                
+It is like sleeping on 1,000 marshmallows. It is all I look forward to when I get off of work.
+
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back" style="background-image: url(https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw0363ffbf/Mattresses/reviews-original-desktop.jpg);">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                    "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back" style="background-image: url(https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwd43f444b/Reviews/TheCasper-Review2-Opt.jpg);">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                    "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back" style="background-image: url(https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/v16558e3c157ff1dfa95318c27f2ef73aa6a86355/Navigation/Hybrid-Snow-Pillow-Top-Nav-NEW.jpg?version=1,689,071,041,148);">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- <div class="review-slider-main">
+    <div class="slider-btn-div">
+        <div class="pre-slide-btn">
+    <button class="prev slider-btn">
+        <svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 16C32 7.16344 24.8366 0 16 0V0C7.16344 0 0 7.16344 0 16V16C0 24.8366 7.16344 32 16 32V32C24.8366 32 32 24.8366 32 16V16Z" fill="#1E306E" fill-opacity="100"></path><path d="M18.5 8.5L11 16L18.5 23.5" stroke="#ffffff" stroke-width="2" stroke-linecap="square"></path></svg>
+    </button></div>
+    <div class="next-slide-btn">
+    <button class="next slider-btn">
+        <svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 16C32 7.16344 24.8366 0 16 0V0C7.16344 0 0 7.16344 0 16V16C0 24.8366 7.16344 32 16 32V32C24.8366 32 32 24.8366 32 16V16Z" fill="#1E306E" fill-opacity="100"></path><path d="M13.5 8.5L21 16L13.5 23.5" stroke="#ffffff" stroke-width="2" stroke-linecap="square"></path></svg>
+    </button></div>
+</div>
+<div class="slider-container">
+   
+    <div class="slider-content">
+       
+        <div class="slide">
+            <div class="review-section">
+                <div class="review-head">
+                    <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+                    <p class="review-para">The right side of the bed is getting bigger.</p>
+                </div>
+                <div class="review-content">
+                    <div class="review1-content">
+                        <div class="review1-left">
+                            <div class="card1-rating">
+                                <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                                <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                                <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                                <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                                <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                            </div>
+                            <h1>
+                                "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                                </h1>
+                                <div class="icon-name-location">
+                                <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                                <div class="name-location">
+                                <p>Ashley</p>
+                                <p>South lyon</p>
+                            </div>
+                            </div>
+            
+                        </div>
+                        <div class="review1-right">
+                            <div class="review-back">
+                                <div class="review1-right-btns">
+                                <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                                <button class="review-shop-btn review-hide-btn">Shop Now</button>
+            
+                            </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="slide">
+            <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                    "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+        </div>
+       
+        
+       
+        
+       
+    </div>
+   
+   
+</div>
+</div> -->
+
+
+
+<div class="tiktok-slider">
+    <h1 class="tiktok-h1">Our story is your story.</h1>
+    <div class="tiktok-btn-div">
+    <div class="tiktok-content">
+        
+    <div class="tiktok_slider owl-carousel owl-theme">
+
+        <div class="item"> <video src="https://cdn.videowise.com/m00anQaM00erFsDfob00PyrrCcVeK5mKcb9402vMpDVsNJU/low.mp4" preload="auto" loop="" playsinline="" webkit-playsinline="" x5-playsinline="" style="width: 100%; height: 100%;" __idm_id__="8197" autoplay="true" muted></video></div>
+        <div class="item"> <video src="https://cdn.videowise.com/ssLRhHQlk5yU238GtHRq0002sKYjv0202QNHsnMyEXzxKvg/low.mp4" preload="auto" loop="" playsinline="" webkit-playsinline="" x5-playsinline="" style="width: 100%; height: 100%;" __idm_id__="8196" autoplay="true" muted></video></div>
+        <div class="item">  <video src="https://cdn.videowise.com/uvPd5UrGPtjC7zfbGWVhKZVhj00KvNAXLuXOjKmFMUOM/low.mp4" preload="auto" loop="" playsinline="" webkit-playsinline="" x5-playsinline="" style="width: 100%; height: 100%;" __idm_id__="8198" autoplay="true" muted></video></div>
+        <div class="item"> <video src="https://cdn.videowise.com/yYoPBfRNbGtLHETYh1v2hy8HbOJveBVSckqZIL8aPdM/low.mp4" preload="auto" loop="" playsinline="" webkit-playsinline="" x5-playsinline="" style="width: 100%; height: 100%;" __idm_id__="8200" autoplay="true" muted></video></div>
+        <div class="item"> <video src="https://cdn.videowise.com/yYoPBfRNbGtLHETYh1v2hy8HbOJveBVSckqZIL8aPdM/low.mp4" preload="auto" loop="" playsinline="" webkit-playsinline="" x5-playsinline="" style="width: 100%; height: 100%;" __idm_id__="8200" autoplay="true" muted></video></div>
+        <div class="item">
+            <video src="https://cdn.videowise.com/WnDUdLVr01MVsxRzE3qmSseOGTO02Pk00J9L1hXlG6nj1w/low.mp4" preload="auto" autoplay="true" loop="" playsinline="" webkit-playsinline="" x5-playsinline="" style="width: 100%; height: 100%;" __idm_id__="8201" muted></video></div>
+    </div>
+    
+    </div>
+</div>
+    </div>
+
+    
+
+
+
+
+
+
+   <div class="sleep-section">
+    <div class="sleep-content">
+        <div class="sleep-top">
+            <h1 class="sleep-heading">Need to sleep on it?</h1>
+            <p class="sleep-para">Dream big, pay little by little with flexible financing options.</p>
+        </div>
+            <div class="sleep-RL">
+                <div class="sleep-right">
+                    <img src="./img/sleep-sec-img1.png" style="height: 100px;">
+                    <p class="sleep-inner-para">Flexible payments - pay over 3,6,12,18, or 24 <br> months with rates as low as 0% APR, subject <br> to eligibility.</p>
+                </div>
+                <div class="sleep-left">
+                    <img src="./img/sleep-sec-img2.png" style="height: 100px;">
+                    <p class="sleep-inner-para">Earn cash rewards toward your purchase for <br> reaching savings milestones.</p>
+                </div>
+        </div>
+    </div>
+    <div class="sleep-btn-div">
+            <button class="sleep-btn">Explore Now</button>
+        </div>
+
+</div>
+
+
+
+
+<div class="award-section">
+    <div class="award-content">
+    <h2 class="award-heading">Experience award-winning comfort and love your tomorrow.</h2>
+    <div class="award-icons">
+        <img class="award-pic" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw4a38ce15/Logos/people1.svg" alt="" srcset="">
+        <img class="award-pic" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw62e35772/Logos/aca1.svg" alt="">
+        <img class="award-pic" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwd5454076/Logos/popSugar1.svg" alt="" srcset="">
+        <img class="award-pic" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw20d8a9b8/Icons/usNews.png" alt="" srcset="">
+        <img class="award-pic" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc9453558/Logos/mattressNerd1.svg" alt="" srcset="">
+        <img class="award-pic" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw16e032f6/Logos/sleepopolis1.svg" alt="">
+        
+    </div>
+    <p class="award-para">Casper has certain affiliate advertising relationships with the above publications which have no editorial influence over its reviews or awards.</p>
+</div></div>
+
+
+
+
+
+ <div class="help-section">
+    <h1 class="help-heading">Need help deciding?</h1>
+    <div class="help-content">
+        <div class="help-content-1 help-1">
+            <img src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw6dfdb624/Icons/cx.svg" alt="" srcset="">
+            <h4 class="inner-help-h4">Chat with us</h4>
+            <p class="inner-help-para">Our award-winning customer service can
+answer any of your sleep questions.</p>
+<a href="#" class="help-link">Ask away</a>
+        </div>
+        <div class="help-content-2 help-1">
+            <img src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw2a09b73c/Icons/hp-store-01%201.svg" alt="" srcset="">
+            <h4 class="inner-help-h4">Take a test Nap</h4>
+            <p class="inner-help-para">Our award-winning customer service can
+answer any of your sleep questions.</p>
+<a href="#" class="help-link">Find a location near you</a>
+        </div>
+        <div class="help-content-3 help-1">
+            <img src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw837b8b9d/Icons/Group%204.svg" alt="" srcset="">
+            <h4 class="inner-help-h4">Give us a ring</h4>
+            <p class="inner-help-para">Our award-winning customer service can
+answer any of your sleep questions.</p>
+<a href="#" class="help-link">123456789</a>
+        </div>
+    </div>
+</div>
+
+
+
+ <div class="footer-section">
+    <div class="footer-content">
+        <div class="footer-left">
+<div class="footer-line1">
+    <h4 class="footer-h4">Products</h4>
+    <ul>
+        <li>Mattresses</li>
+        <li>Pillows</li>
+        <li>Bed Frame</li>
+        <li>Sheets</li>
+        <li>Duvets</li>
+        <li>Weighted </li>
+        <li>Glow Light</li>
+        <li>Dog Bed</li>
+         <li>Sheets</li>
+        <li>Duvets</li>
+        <li>Weighted </li>
+
+    </ul>
+</div>
+<div class="footer-line1">
+    <h4 class="footer-h4">Shop by Size</h4>
+    <ul>
+        <li>Mattresses</li>
+        <li>Pillows</li>
+        <li>Bed Frame</li>
+        <li>Sheets</li>
+        <li>Duvets</li>
+        <li>Weighted </li>
+    
+    </ul>
+</div>
+<div class="footer-line1">
+    <h4 class="footer-h4">Support</h4>
+    <ul>
+        <li>Mattresses</li>
+        <li>Pillows</li>
+        <li>Bed Frame</li>
+        <li>Sheets</li>
+        <li>Duvets</li>
+        <li>Weighted Blanket</li>
+        <li>Glow Light</li>
+    
+    </ul>
+</div>
+<div class="footer-line1">
+    <h4 class="footer-h4">About</h4>
+    <ul>
+        <li>Mattresses</li>
+        <li>Pillows</li>
+        <li>Bed Frame</li>
+        <li>Sheets</li>
+        <li>Duvets</li>
+        <li>Weighted Blanket</li>
+        <li>Glow Light</li>
+        <li>Dog Bed</li>
+         <li>Pillows</li>
+        <li>Bed Frame</li>
+    
+    </ul>
+</div>
+<div class="footer-line1">
+    <h4 class="footer-h4">Resources</h4>
+    <ul>
+        <li>Mattresses</li>
+        <li>Pillows</li>
+        <li>Bed Frame</li>
+        <li>Sheets</li>
+        <li>Duvets</li>
+        <li>Weighted Blanket</li>
+        <li>Glow Light</li>
+        <li>Dog Bed</li>
+         <li>Bed Frame</li>
+    
+    </ul>
+</div>
+
+        </div>
+        <div class="footer-right">
+<h4 class="footer-h4">Sign up for the latest snooze!</h4>
+<div class="footer-input-btn">
+<input type="text" placeholder="Email Address" class="footer-input"> <button class="footer-btn">Submit</button>
+</div>
+<div class="footer-icons">
+    <i class="fa-brands fa-facebook-f footer-icon1"></i>
+    <i class="fa-brands fa-twitter footer-icon1 tw-you"></i>
+        <i class="fa-brands fa-instagram footer-icon1"></i>
+        <i class="fa-brands fa-pinterest-p footer-icon1"></i>
+        <i class="fa-brands fa-linkedin-in footer-icon1"></i>
+        <i class="fa-brands fa-youtube footer-icon1 tw-you"></i>
+</div>
+<div class="footer-right-bottom">
+<p class="num">+92345426205555</p>
+<select name="" id="" style="background-color: #1E306E; color: white; padding: 0 20px; border: none;" >
+    
+
+    <option value=""> United State</option>
+</select>
+</div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="copy-right">
+    <span>©2023</span>
+    <span>Privacy</span>
+    <span>Terms</span>
+    <span>
+        Accessibility</span>
+<span>Your privacy choice</span> <img style="width: 50px;" src="./img/copy-right-cap.png" alt="" srcset="">
+</div>
+
+
+
+
+<!-- <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                    "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  -->
+
+
+
+
+
+ <!-- <div class="custom-slider owl-carousel owl-theme">
+    <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                    "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                    "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back" style="background-image: url(https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw05b6f373/Mattresses/reviews-nova-desktop.jpg);">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                    "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back" style="background-image: url(https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw21c74a6f/Reviews/5.jpg);">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                
+It is like sleeping on 1,000 marshmallows. It is all I look forward to when I get off of work.
+
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back" style="background-image: url(https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dw0363ffbf/Mattresses/reviews-original-desktop.jpg);">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                    "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back" style="background-image: url(https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwd43f444b/Reviews/TheCasper-Review2-Opt.jpg);">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <div class="review-section">
+    <div class="review-head">
+        <h1 class="review-h1">Backed By Over 100,000+ 5-Star Reviews</h1>
+        <p class="review-para">The right side of the bed is getting bigger.</p>
+    </div>
+    <div class="review-content">
+        <div class="review1-content">
+            <div class="review1-left">
+                <div class="card1-rating">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                    <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+                </div>
+                <h1>
+                    "The temperature regulation is next level. Like sleeping in a room with the fan going and a cool breeze through your windows but in mattress form.*"
+                    </h1>
+                    <div class="icon-name-location">
+                    <img style="height: 60px;" src="https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/dwc2e0e83e/2.svg">
+                    <div class="name-location">
+                    <p>Ashley</p>
+                    <p>South lyon</p>
+                </div>
+                </div>
+
+            </div>
+            <div class="review1-right">
+                <div class="review-back" style="background-image: url(https://casper.com/on/demandware.static/-/Library-Sites-casper-shared-us/default/v16558e3c157ff1dfa95318c27f2ef73aa6a86355/Navigation/Hybrid-Snow-Pillow-Top-Nav-NEW.jpg?version=1,689,071,041,148);">
+                    <div class="review1-right-btns">
+                    <button style="color: white; background-color: #00706E;" class="review-shop-btn">25% OFF</button>
+                    <button class="review-shop-btn review-hide-btn">Shop Now</button>
+
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div> -->
+
+
+
+
+
+ 
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+ <script src="index.js"></script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="review-slider-main">
+    <div class="slider-btn-div">
+        <div class="pre-slide-btn">
+    <button class="prev slider-btn">
+        <svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 16C32 7.16344 24.8366 0 16 0V0C7.16344 0 0 7.16344 0 16V16C0 24.8366 7.16344 32 16 32V32C24.8366 32 32 24.8366 32 16V16Z" fill="#1E306E" fill-opacity="100"></path><path d="M18.5 8.5L11 16L18.5 23.5" stroke="#ffffff" stroke-width="2" stroke-linecap="square"></path></svg>
+    </button></div>
+    <div class="next-slide-btn">
+    <button class="next slider-btn">
+        <svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 16C32 7.16344 24.8366 0 16 0V0C7.16344 0 0 7.16344 0 16V16C0 24.8366 7.16344 32 16 32V32C24.8366 32 32 24.8366 32 16V16Z" fill="#1E306E" fill-opacity="100"></path><path d="M13.5 8.5L21 16L13.5 23.5" stroke="#ffffff" stroke-width="2" stroke-linecap="square"></path></svg>
+    </button></div>
+</div>
+<div class="slider-container">
+   
+    <div class="slider-content">
+       
+        <div class="slide">
+        <div class="card1">
+    <div class="card1-top-div">
+    <button class="card-top-btn">COOLING</button>
+    <p class="card1-top-para">Our coolest sleep technology with enhanced comfort and support.</p>
+</div>
+    <div class="card1-content">
+        <div class="card1-img"></div>
+        <div class="card1-inner-content">
+        <div class="card1-rating">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+            4.2(106)
+        </div>
+        <h3 class="card1-inner-heading">Wave Hybrid Snow</h3>
+        <h4 class="price">Queen <span class="span-price">$ 2,716</span> <span class="strike-price">$3,395</span></h4>
+        <p class="card1-inner-para">Firmness:Medium</p>
+        <p class="card1-inner-para">Max support meets our most advance cooling</p>
+        <div class="inner-card-div">
+            <p class="inner-div-para">Ergonomic Support</p>
+            <div class="rating">
+            <div class="rating-line first"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line"> </div>
+            <div class="rating-line last"> </div>
+        </div>
+        <p class="inner-div-para">Cooling Technology</p>
+        <div class="rating">
+        <div class="rating-line two  first"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two"> </div>
+        <div class="rating-line two last"> </div>
+    </div>
+        </div></div>
+        <div class="card1-btn">
+            <button class="btn1">Explore Wave Hybrid Snow</button>
+        </div>
+    </div>
+
+</div>
+  </div>
+  <div class="slide">
+    <div class="card1">
+<div class="card1-top-div">
+<button class="card-top-btn">COOLING</button>
+<p class="card1-top-para">Our coolest sleep technology with enhanced comfort and support.</p>
+</div>
+<div class="card1-content">
+    <div class="card1-img"></div>
+    <div class="card1-inner-content">
+    <div class="card1-rating">
+        <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+        <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+        <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+        <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+        <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+        4.2(106)
+    </div>
+    <h3 class="card1-inner-heading">Wave Hybrid Snow</h3>
+    <h4 class="price">Queen <span class="span-price">$ 2,716</span> <span class="strike-price">$3,395</span></h4>
+    <p class="card1-inner-para">Firmness:Medium</p>
+    <p class="card1-inner-para">Max support meets our most advance cooling</p>
+    <div class="inner-card-div">
+        <p class="inner-div-para">Ergonomic Support</p>
+        <div class="rating">
+        <div class="rating-line first"> </div>
+        <div class="rating-line"> </div>
+        <div class="rating-line"> </div>
+        <div class="rating-line"> </div>
+        <div class="rating-line"> </div>
+        <div class="rating-line"> </div>
+        <div class="rating-line last"> </div>
+    </div>
+    <p class="inner-div-para">Cooling Technology</p>
+    <div class="rating">
+    <div class="rating-line two  first"> </div>
+    <div class="rating-line two"> </div>
+    <div class="rating-line two"> </div>
+    <div class="rating-line two"> </div>
+    <div class="rating-line two"> </div>
+    <div class="rating-line two"> </div>
+    <div class="rating-line two last"> </div>
+</div>
+    </div></div>
+    <div class="card1-btn">
+        <button class="btn1">Explore Wave Hybrid Snow</button>
+    </div>
+</div>
+
+</div>
+</div>
+<div class="slide">
+    <div class="card1">
+<div class="card1-top-div">
+<button class="card-top-btn">COOLING</button>
+<p class="card1-top-para">Our coolest sleep technology with enhanced comfort and support.</p>
+</div>
+<div class="card1-content">
+    <div class="card1-img"></div>
+    <div class="card1-inner-content">
+    <div class="card1-rating">
+        <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+        <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+        <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+        <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+        <img class="star-rating" src="./img/star.svg" alt="" srcset="">
+        4.2(106)
+    </div>
+    <h3 class="card1-inner-heading">Wave Hybrid Snow</h3>
+    <h4 class="price">Queen <span class="span-price">$ 2,716</span> <span class="strike-price">$3,395</span></h4>
+    <p class="card1-inner-para">Firmness:Medium</p>
+    <p class="card1-inner-para">Max support meets our most advance cooling</p>
+    <div class="inner-card-div">
+        <p class="inner-div-para">Ergonomic Support</p>
+        <div class="rating">
+        <div class="rating-line first"> </div>
+        <div class="rating-line"> </div>
+        <div class="rating-line"> </div>
+        <div class="rating-line"> </div>
+        <div class="rating-line"> </div>
+        <div class="rating-line"> </div>
+        <div class="rating-line last"> </div>
+    </div>
+    <p class="inner-div-para">Cooling Technology</p>
+    <div class="rating">
+    <div class="rating-line two  first"> </div>
+    <div class="rating-line two"> </div>
+    <div class="rating-line two"> </div>
+    <div class="rating-line two"> </div>
+    <div class="rating-line two"> </div>
+    <div class="rating-line two"> </div>
+    <div class="rating-line two last"> </div>
+</div>
+    </div></div>
+    <div class="card1-btn">
+        <button class="btn1">Explore Wave Hybrid Snow</button>
+    </div>
+</div>
+
+</div>
+</div>
+   
+   
+</div>
+</div>
+ </div>
+
 </body>
 </html>
+
+
 
